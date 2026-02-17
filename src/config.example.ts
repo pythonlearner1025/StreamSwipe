@@ -1,0 +1,3 @@
+// Copy this file to config.ts and add your TMDB API key
+// Get a free key at https://www.themoviedb.org/settings/api
+export const TMDB_API_KEY = 'your_tmdb_api_key_here'

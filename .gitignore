@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+ios/Pods/
+
+# Environment & secrets
+.env
+.dev.vars
+.prod.vars
+src/config.ts
+
+# Local database
+.local-persist/
+
+# Build artifacts
+dist/
+ios/build/
+
+# Blitz IDE (not needed for standalone development)
+.blitz/
+.blitz-externals/
+.blitz-bundle-id
+.claude/
+.mcp.json
+blitz-watch.json
+scripts/
+
+# Teenybase / Wrangler
+.teeny/
+.wrangler/
+
+# IDE
+.vscode/
+.idea/
+
+# Xcode local env (contains machine-specific paths)
+ios/.xcode.env.local
+
+# OS
+.DS_Store
+*.log
+Thumbs.db
+
+# Package manager
+/.pnp
+.pnp.js
+/tmp
+/out-tsc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
